@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(148, 230, 255);
+}
+
+nav{
+    height:fit-content;
+    background-color: rgb(217, 237, 243);
+    box-shadow: 0 2px 2px -2px rgba(162, 232, 241, 0.2);
+}
+
+ h2{
+    font-family: sans-serif;
+    margin-left: 20px;
+    line-height: 50px;
+    font-size: 30px;
+    color: rgb(82, 148, 206);
+}
+li{
+    margin-top: 14px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    font-size: 20px;
+    position: absolute;
+    left: 1300px;
+    top: 10px;
+}
+
+.links{
+    height: 0;
+    overflow: hidden;
+    transition:  height 2s;
+}
+
+.show-links{
+    height: 10rem;
+}
