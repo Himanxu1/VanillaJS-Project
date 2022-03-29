@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(241, 242, 243);
+}
+.image img{
+  height: 270px;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.content{
+    display: block;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 640px;
+}
+.content h1{
+    color: rgb(28, 106, 179);
+    font-size: 30px;
+}
+
+.content h3{
+  margin-top:8px;
+}
+
+.content p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+
+.deadline{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.deadline-format{
+  background-color: rgb(21, 26, 41);
+  color: white;
+  padding: 13px;
+  text-align: center;
+}
+
+.deadline-format h4{
+  font-size: 25px;
+}
+

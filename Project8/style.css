@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(198, 230, 227);
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    color:goldenrod;
+    margin-top: 200px;
+}
+
+.question1{
+    background: white;
+    height:max-content;
+    width: 600px;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 350px;
+    
+}
+/* .question-text{
+    display: none;
+} */
+
+#icon1{
+    position: relative;
+        left: 550px;
+        bottom: 40px;
+}
+#icon2{
+    position: absolute;
+    top: 470px;
+    left: 900px;
+}
+#icon3{
+    position: absolute;
+    top: 660px;
+    left: 900px;
+}
+
+
+.question1 h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color:rgb(14, 43, 56);
+    margin-left: 20px;
+    font-weight:900;
+    line-height: 50px;
+}
+
+hr{
+    /* margin-top: px; */
+    margin-left: 20px;
+    width: 94%;
+}
+.question1 p{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.question2{
+    background: white;
+    height:max-content;
+    width: 600px;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 350px;
+
+}
+
+
+
+.question2 h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color:rgb(14, 43, 56);
+    margin-left: 20px;
+    font-weight:900;
+    line-height: 50px;
+}
+
+
+.question2 p{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.question3{
+    background: white;
+    height:max-content;
+    width: 600px;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 350px;
+    
+
+    
+}
+
+
+
+.question3 h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color:rgb(14, 43, 56);
+    margin-left: 20px;
+    font-weight:900;
+    line-height: 50px;
+}
+
+
+.question3 p{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+}
